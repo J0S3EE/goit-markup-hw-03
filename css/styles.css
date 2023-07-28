@@ -1,0 +1,131 @@
+body {
+    font-family: 'Roboto';
+}
+ul {
+    list-style: none;
+}
+.web{
+    color: #2196F3;
+    font-family: 'Raleway';
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 30.52px;
+}
+.nav {
+    color: #212121;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    line-height: 16.41px;
+}
+.nav:hover {
+    color: #2196F3;
+}
+.nav-mt {
+    font-family: 'Roboto';
+    color: #757575;
+    text-decoration: none;
+    line-height: 16.41px;
+}
+.sec1 {
+    background-color: #2F303A;
+    color: #FFFFFF;
+    text-align: center;
+    
+}
+h1 {
+    text-align: center;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+}
+.btn-sec1 {
+    background-color: #2196F3;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.sec2 {
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.h3-sec2 {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+}
+h2 {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 42.19px;
+}
+.sec3 {
+    font-size: 16px;
+    
+}
+.h3-sec4 {
+    color: #212121;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+}
+.sec4 {
+    background-color: #F5F4FA;
+    color: #757575;
+    font-size: 16px;
+    line-height: 18.75px;
+}
+
+footer {
+    background-color: #2F303A;
+}
+.ftr-ad {
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+    line-height: 24px;
+}
+.ftr-mt {
+    font-size: 14px;
+    color: #FFFFFF;
+    opacity: 60%;
+    text-decoration: none;
+    line-height: 24px;
+}
+
+
+
+/*PORTAFOLIO*/
+.btn-fil {
+    background-color: #F5F4FA;
+    color: #212121;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 26px;
+}
+.btn-fil:hover {
+    color: #FFFFFF;
+    background-color: #2196F3;
+
+}
+.h3-pf {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.p-pf {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
