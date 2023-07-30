@@ -1,5 +1,7 @@
 body {
+    color: #FFFFFF;
     font-family: 'Roboto';
+    font-size: 14px;
 }
 ul {
     list-style: none;
@@ -14,20 +16,34 @@ ul {
 }
 .nav {
     color: #212121;
-    font-family: 'Roboto';
-    font-size: 14px;
     font-weight: 500;
     text-decoration: none;
     line-height: 16.41px;
 }
-.nav:hover {
+.nav-sel1 {
     color: #2196F3;
 }
+.nav-sel2 {
+    color: #2196F3;
+}
+.nav:hover {
+    color: #2196F3;
+    
+}
 .nav-mt {
-    font-family: 'Roboto';
     color: #757575;
+    font-weight: 500;
     text-decoration: none;
     line-height: 16.41px;
+}
+.nav-mt:hover {
+    color: #2196F3;
+}
+.nav:focus {
+    color: #2196F3;
+}
+.nav-mt:focus {
+    color: #2196F3;
 }
 .sec1 {
     background-color: #2F303A;
@@ -35,7 +51,7 @@ ul {
     text-align: center;
     
 }
-h1 {
+.h1-title {
     text-align: center;
     font-size: 44px;
     font-weight: 900;
@@ -47,20 +63,20 @@ h1 {
     font-size: 16px;
     font-weight: 700;
     line-height: 30px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 15%);
 }
 .sec2 {
     color: #757575;
-    font-size: 14px;
     font-weight: 400;
     line-height: 24px;
 }
 .h3-sec2 {
     color: #212121;
-    font-size: 14px;
     font-weight: 700;
     line-height: 16.41px;
 }
-h2 {
+.h2-st {
     color: #212121;
     font-size: 36px;
     font-weight: 700;
@@ -88,17 +104,27 @@ footer {
     background-color: #2F303A;
 }
 .ftr-ad {
-    font-size: 14px;
     color: #FFFFFF;
     text-decoration: none;
     line-height: 24px;
 }
+.ftr-ad:hover {
+    color: #2196F3;
+}
 .ftr-mt {
-    font-size: 14px;
     color: #FFFFFF;
     opacity: 60%;
     text-decoration: none;
     line-height: 24px;
+}
+.ftr-mt:hover {
+    color: #2196F3;
+}
+.ftr-ad:focus {
+    color: #2196F3;
+}
+.ftr-mt:focus {
+    color: #2196F3;
 }
 
 
@@ -111,6 +137,7 @@ footer {
     font-weight: 500;
     text-align: center;
     line-height: 26px;
+    border-radius: 4px;
 }
 .btn-fil:hover {
     color: #FFFFFF;
