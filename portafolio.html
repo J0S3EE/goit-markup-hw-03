@@ -20,148 +20,205 @@
     <title>WebStudio</title>
   </head>
   <body>
-    <header>
-      <a class="web" class="title-web" href="WebStudio">WebStudio</a>
-      <nav>
-        <ul>
-          <li><a class="nav" href="./index.html">Estudio</a></li>
+    <header class="header">
+      <div class="container container-header">
+        <nav class="navigation">
+          <a class="web" href="WebStudio">WebStudio</a>
+          <ul class="list">
+            <li><a class="nav" href="./index.html">Estudio</a></li>
+            <li>
+              <a class="nav nav-sel2" href="./portafolio.html">Portafolio</a>
+            </li>
+            <li><a class="nav" href="Contactos">Contactos</a></li>
+          </ul>
+        </nav>
+        <ul class="list">
           <li>
-            <a class="nav nav-sel2" href="./portafolio.html">Portafolio</a>
+            <a class="nav-mt" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
-          <li><a class="nav" href="Contactos">Contactos</a></li>
+          <li>
+            <a class="nav-mt" href="tel:+525555296000">+52 55 5529 6000</a>
+          </li>
         </ul>
-      </nav>
-      <ul>
-        <li>
-          <a class="nav-mt" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li><a class="nav-mt" href="tel:+525555296000">+52 55 5529 6000</a></li>
-      </ul>
+      </div>
     </header>
     <main>
-      <ul>
-        <li><button class="btn-fil" type="button">Todo</button></li>
-        <li><button class="btn-fil" type="button">Sitios-web</button></li>
-        <li><button class="btn-fil" type="button">Aplicaciones</button></li>
-        <li><button class="btn-fil" type="button">Diseño</button></li>
-        <li><button class="btn-fil" type="button">Marketing</button></li>
-      </ul>
-      <ul>
-        <li>
-          <img
-            src="imagenes/tecnoduck.jpg"
-            alt="Tecnoduck"
-            width="270"
-            height="260"
-          />
-          <h3 class="h3-pf">Tecnoduck</h3>
-          <p class="p-pf">Sitio-web</p>
-        </li>
-        <li>
-          <img
-            src="imagenes/post.jpg"
-            alt="Póster de Nueva Orleans vs Estrella Dorada"
-            width="270"
-            height="260"
-          />
-          <h3 class="h3-pf">Póster de Nueva Orleans vs Estrella Dorada</h3>
-          <p class="p-pf">Diseño</p>
-        </li>
-        <li>
-          <img
-            src="imagenes/seafood.jpg"
-            alt="Restaurante Seafood"
-            width="270"
-            height="260"
-          />
-          <h3 class="h3-pf">Restaurante Seafood</h3>
-          <p class="p-pf">Aplicaciones</p>
-        </li>
-        <li>
-          <img
-            src="imagenes/prime.jpg"
-            alt="Proyecto Prime"
-            width="270"
-            height="260"
-          />
-          <h3 class="h3-pf">Proyecto Prime</h3>
-          <p class="p-pf">Marketing</p>
-        </li>
-        <li>
-          <img
-            src="imagenes/box.jpg"
-            alt="Proyecto Cajas"
-            width="270"
-            height="260"
-          />
-          <h3 class="h3-pf">Proyecto Cajas</h3>
-          <p class="p-pf">Aplicaciones</p>
-        </li>
-        <li>
-          <img
-            src="imagenes/web.jpg"
-            alt="La inspiración no tiene límites"
-            width="270"
-            height="260"
-          />
-          <h3 class="h3-pf">La inspiración no tiene límites</h3>
-          <p class="p-pf">Sitio-web</p>
-        </li>
-        <li>
-          <img
-            src="imagenes/edit.jpg"
-            alt="Edición Limitada"
-            width="270"
-            height="260"
-          />
-          <h3 class="h3-pf">Edición Limitada</h3>
-          <p class="p-pf">Diseño</p>
-        </li>
-        <li>
-          <img
-            src="imagenes/lab.jpg"
-            alt="Proyecto LAB"
-            width="270"
-            height="260"
-          />
-          <h3 class="h3-pf">Proyecto LAB</h3>
-          <p class="p-pf">Marketing</p>
-        </li>
-        <li>
-          <img
-            src="imagenes/bussines.jpg"
-            alt="Negocio en Crecimiento"
-            width="270"
-            height="260"
-          />
-          <h3 class="h3-pf">Negocio en Crecimiento</h3>
-          <p class="p-pf">Aplicaciones</p>
-        </li>
-      </ul>
+      <section class="section">
+        <div class="container main-container">
+          <ul class="list">
+            <li><button class="btn-fil" type="button">Todo</button></li>
+            <li><button class="btn-fil" type="button">Sitios-web</button></li>
+            <li><button class="btn-fil" type="button">Aplicaciones</button></li>
+            <li><button class="btn-fil" type="button">Diseño</button></li>
+            <li><button class="btn-fil" type="button">Marketing</button></li>
+          </ul>
+          <ul class="portfolio">
+            <li class="card">
+              <a href="#" class="link-card">
+                <img
+                  src="imagenes/tecnoduck.jpg"
+                  alt="Tecnoduck"
+                  width="370"
+                  height="294"
+                  class="img"
+                />
+                <div class="card-info">
+                  <h3 class="h3-pf">Tecnoduck</h3>
+                  <p class="p-pf">Sitio-web</p>
+                </div>
+              </a>
+            </li>
+            <li class="card">
+              <a href="#" class="link-card">
+                <img
+                  src="imagenes/post.jpg"
+                  alt="Póster de Nueva Orleans vs Estrella Dorada"
+                  width="370"
+                  height="294"
+                  class="img"
+                />
+                <div class="card-info">
+                  <h3 class="h3-pf">
+                    Póster de Nueva Orleans vs Estrella Dorada
+                  </h3>
+                  <p class="p-pf">Diseño</p>
+                </div>
+              </a>
+            </li>
+            <li class="card">
+              <a href="#" class="link-card">
+                <img
+                  src="imagenes/seafood.jpg"
+                  alt="Restaurante Seafood"
+                  width="370"
+                  height="294"
+                  class="img"
+                />
+                <div class="card-info">
+                  <h3 class="h3-pf">Restaurante Seafood</h3>
+                  <p class="p-pf">Aplicaciones</p>
+                </div>
+              </a>
+            </li>
+            <li class="card">
+              <a href="#" class="link-card">
+                <img
+                  src="imagenes/prime.jpg"
+                  alt="Proyecto Prime"
+                  width="370"
+                  height="294"
+                  class="img"
+                />
+                <div class="card-info">
+                  <h3 class="h3-pf">Proyecto Prime</h3>
+                  <p class="p-pf">Marketing</p>
+                </div>
+              </a>
+            </li>
+            <li class="card">
+              <a href="#" class="link-card">
+                <img
+                  src="imagenes/box.jpg"
+                  alt="Proyecto Cajas"
+                  width="370"
+                  height="294"
+                  class="img"
+                />
+                <div class="card-info">
+                  <h3 class="h3-pf">Proyecto Cajas</h3>
+                  <p class="p-pf">Aplicaciones</p>
+                </div>
+              </a>
+            </li>
+            <li class="card">
+              <a href="#" class="link-card">
+                <img
+                  src="imagenes/web.jpg"
+                  alt="La inspiración no tiene límites"
+                  width="370"
+                  height="294"
+                  class="img"
+                />
+                <div class="card-info">
+                  <h3 class="h3-pf">La inspiración no tiene límites</h3>
+                  <p class="p-pf">Sitio-web</p>
+                </div>
+              </a>
+            </li>
+            <li class="card">
+              <a href="#" class="link-card">
+                <img
+                  src="imagenes/edit.jpg"
+                  alt="Edición Limitada"
+                  width="370"
+                  height="294"
+                  class="img"
+                />
+                <div class="card-info">
+                  <h3 class="h3-pf">Edición Limitada</h3>
+                  <p class="p-pf">Diseño</p>
+                </div>
+              </a>
+            </li>
+            <li class="card">
+              <a href="#" class="link-card">
+                <img
+                  src="imagenes/lab.jpg"
+                  alt="Proyecto LAB"
+                  width="370"
+                  height="294"
+                  class="img"
+                />
+                <div class="card-info">
+                  <h3 class="h3-pf">Proyecto LAB</h3>
+                  <p class="p-pf">Marketing</p>
+                </div>
+              </a>
+            </li>
+            <li class="card">
+              <a href="#" class="link-card">
+                <img
+                  src="imagenes/bussines.jpg"
+                  alt="Negocio en Crecimiento"
+                  width="370"
+                  height="294"
+                  class="img"
+                />
+                <div class="card-info">
+                  <h3 class="h3-pf">Negocio en Crecimiento</h3>
+                  <p class="p-pf">Aplicaciones</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
-    <footer>
-      <a class="web" href="WebStudio">WebStudio</a>
-      <address>
-        <ul>
-          <li>
-            <a
-              class="ftr-ad"
-              href="Calz. Ticomán 500, Ciudad de México, CDMX, México"
-              >Calz. Ticomán 500, Ciudad de México, CDMX, México</a
-            >
-          </li>
-          <li>
-            <a class="ftr-mt" href="mailto:info@example.com"
-              >info@example.com</a
-            >
-          </li>
-          <li>
-            <a class="ftr-mt" href="tel:+525555296000 ">+52 55 5529 6000 </a>
-          </li>
-        </ul>
-      </address>
+    <footer class="footer">
+      <div class="container">
+        <a class="web" href="WebStudio">WebStudio</a>
+        <address>
+          <ul class="list-footer">
+            <li>
+              <a
+                class="ftr-ad"
+                href="Calz-Ticomán 500,Ciudad de México,CDMX,México"
+                >Calz. Ticomán 500, Ciudad de México, CDMX, México</a
+              >
+            </li>
+            <li>
+              <a class="ftr-mt" href="mailto:info@example.com"
+                >info@example.com</a
+              >
+            </li>
+            <li>
+              <a class="ftr-mt" href="tel:+525555296000 ">+52 55 5529 6000 </a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>

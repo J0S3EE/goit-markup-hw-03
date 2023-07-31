@@ -6,6 +6,19 @@ body {
 ul {
     list-style: none;
 }
+.header {
+    padding: 10px;
+    border-bottom: 2px solid #ECECEC;
+}
+.container {
+    width: 1200px;
+    margin: auto;
+}
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .web{
     color: #2196F3;
     font-family: 'Raleway';
@@ -13,6 +26,19 @@ ul {
     font-weight: 700;
     text-decoration: none;
     line-height: 30.52px;
+    margin-right: 120px;
+}
+.navigation {
+    display: flex;
+    align-items: center;
+}
+.list {
+    
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    align-items: flex-start;
+    padding: 0;
 }
 .nav {
     color: #212121;
@@ -45,29 +71,47 @@ ul {
 .nav-mt:focus {
     color: #2196F3;
 }
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .sec1 {
+    height: 600px;
     background-color: #2F303A;
     color: #FFFFFF;
     text-align: center;
-    
+    display: flex;
+    align-items: center;
 }
 .h1-title {
     text-align: center;
     font-size: 44px;
     font-weight: 900;
     line-height: 60px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 30px;
+    width: 696px;
 }
 .btn-sec1 {
     background-color: #2196F3;
     color: #FFFFFF;
+    align-items: center;
+    text-align: center;
     font-size: 16px;
     font-weight: 700;
     line-height: 30px;
+    letter-spacing: 0.06em;
+    cursor: pointer;
     border-radius: 4px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 15%);
+    border: none;
+    padding: 10px 32px;
 }
 .sec2 {
     color: #757575;
+    text-align: left;
     font-weight: 400;
     line-height: 24px;
 }
@@ -75,6 +119,9 @@ ul {
     color: #212121;
     font-weight: 700;
     line-height: 16.41px;
+}
+.container-sec2 {
+    width: 270px;
 }
 .h2-st {
     color: #212121;
@@ -85,10 +132,15 @@ ul {
 }
 .sec3 {
     font-size: 16px;
+    padding-top: 0;
+}
+.container-sec4 {
+    background-color: #FFFFFF;
     
 }
 .h3-sec4 {
     color: #212121;
+    text-align: center;
     font-size: 16px;
     font-weight: 500;
     line-height: 18.75px;
@@ -96,12 +148,17 @@ ul {
 .sec4 {
     background-color: #F5F4FA;
     color: #757575;
+    text-align: center;
     font-size: 16px;
     line-height: 18.75px;
 }
 
-footer {
+.footer {
     background-color: #2F303A;
+    padding: 60px;
+}
+.list-footer {
+    padding: 0;
 }
 .ftr-ad {
     color: #FFFFFF;
@@ -137,12 +194,62 @@ footer {
     font-weight: 500;
     text-align: center;
     line-height: 26px;
+    cursor: pointer;
+    padding: 6px 24px;
     border-radius: 4px;
+    border: none;
 }
 .btn-fil:hover {
     color: #FFFFFF;
     background-color: #2196F3;
 
+}
+.btn-fil:focus {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+.btn-fil:active {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.portfolio {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.card {
+    width: 370px;
+    border: 1px solid #ECECEC;
+}
+.card:hover {
+    border: 1px solid #EEE;
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
+            0px 4px 4px 0px rgba(0, 0, 0, 0.06),
+            0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+        
+}
+.link-card {
+    text-decoration: none;
+    cursor: pointer;
+}
+.card-info {
+    display: block;
+    
+    border-top: none;
+    padding: 20px 24px;
+    
+}
+.img {
+    display: block;
+    margin: 0;
+    padding: 0;
 }
 .h3-pf {
     color: #212121;
